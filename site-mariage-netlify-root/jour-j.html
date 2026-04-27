@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jour J • Océane & Nicolas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" data-site-header></header>
+      <main>
+        <section class="section">
+          <div class="section-grid">
+            <article class="section-panel reveal">
+              <p class="kicker">Jour J</p>
+              <h1>Le déroulé de la journée</h1>
+              <p>
+                Cette page est prévue pour rassembler les horaires importants : accueil,
+                cérémonie, cocktail, repas, ouverture de bal et fin de soirée.
+              </p>
+              <p>
+                Le programme détaillé sera communiqué prochainement et mis à jour ici dès
+                qu'il sera finalisé.
+              </p>
+            </article>
+            <article class="section-panel reveal">
+              <p class="kicker">Conseil</p>
+              <h2>Gardez cette page de côté</h2>
+              <p>
+                C'est ici que vos invités retrouveront le fil de la journée sans avoir à
+                vous recontacter pour chaque détail.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="schedule-grid" data-schedule></div>
+        </section>
+
+        <section class="section">
+          <div class="split-highlight">
+            <article class="note-panel reveal">
+              <p class="kicker">Informations utiles</p>
+              <h2>À compléter ensuite</h2>
+              <p>
+                Vous pourrez ajouter ici la tenue recommandée, les consignes photo,
+                l'organisation des enfants, la navette éventuelle ou toute autre précision.
+              </p>
+            </article>
+            <article class="note-panel reveal">
+              <p class="kicker">Contact rapide</p>
+              <h2>Un besoin de dernière minute ?</h2>
+              <p>
+                Pour les confirmations, les questions ou les ajustements, vos proches
+                peuvent toujours vous écrire sur WhatsApp au <span data-whatsapp-display></span>.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer" data-site-footer></footer>
+    </div>
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

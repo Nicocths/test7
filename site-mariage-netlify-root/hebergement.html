@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hébergement • Océane & Nicolas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" data-site-header></header>
+      <main>
+        <section class="section">
+          <div class="section-grid">
+            <article class="section-panel reveal">
+              <p class="kicker">Hébergement</p>
+              <h1>Dormir sur place</h1>
+              <p>
+                Pour profiter pleinement de la soirée, des couchages sont disponibles
+                directement sur le lieu de réception.
+              </p>
+              <p data-lodging-capacity></p>
+              <p>
+                Merci de nous contacter via WhatsApp pour réserver en nous indiquant votre
+                nom et le nombre de personnes.
+              </p>
+            </article>
+            <article class="section-panel reveal">
+              <p class="kicker">Tarifs</p>
+              <h2>Formules</h2>
+              <p>
+                20 euros par personne seule, 40 euros par couple, 55 euros pour un couple
+                avec enfants.
+              </p>
+              <div class="button-row">
+                <a class="button" href="https://wa.me/33783626315" target="_blank" rel="noreferrer">
+                  Réserver par WhatsApp
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="price-grid" data-pricing></div>
+        </section>
+
+        <section class="section">
+          <p class="mini-label">Couchages sur place</p>
+          <h2>Des exemples des chambres prévues pour le mariage</h2>
+          <div class="rooms-grid" data-rooms></div>
+        </section>
+
+        <section class="section">
+          <div class="section-grid">
+            <article class="note-panel reveal">
+              <p class="kicker">Réservation</p>
+              <h2>Comment faire ?</h2>
+              <p>
+                Remplissez le RSVP puis envoyez votre message sur WhatsApp, ou écrivez-nous
+                directement si vous savez déjà que vous souhaitez dormir sur place.
+              </p>
+            </article>
+            <article class="note-panel reveal">
+              <p class="kicker">Important</p>
+              <h2>Répartition selon les disponibilités</h2>
+              <p>
+                Les chambres affichées ici donnent un aperçu réel des couchages sur place,
+                mais la répartition finale dépendra des réservations et de l'organisation du
+                week-end.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer" data-site-footer></footer>
+    </div>
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
