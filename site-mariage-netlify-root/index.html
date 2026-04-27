@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Océane & Nicolas • 24 avril 2027</title>
+    <meta
+      name="description"
+      content="Le site de mariage d'Océane et Nicolas : date, lieu, hébergement, RSVP et toutes les informations utiles pour le 24 avril 2027."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" data-site-header></header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-panel">
+            <div class="hero-copy">
+              <p class="eyebrow">24 avril 2027 • Manoir d'Hermos</p>
+              <h1>Océane <br />& Nicolas</h1>
+              <div class="hero-meta">
+                <span class="pill" data-countdown></span>
+                <span class="pill">Saint-Éloi-de-Fourques</span>
+              </div>
+              <p>
+                Nous avons la joie de vous inviter à célébrer notre mariage dans un lieu
+                plein de charme, entourés de ceux que nous aimons.
+              </p>
+              <p>
+                Vous trouverez ici les informations pratiques, les possibilités
+                d'hébergement, la réponse RSVP et les prochaines mises à jour.
+              </p>
+              <div class="button-row">
+                <a class="button" href="rsvp.html">Confirmer ma présence</a>
+                <a class="button-secondary" href="hebergement.html">Voir les chambres</a>
+              </div>
+            </div>
+            <p class="hero-quote">
+              Pour profiter pleinement de la soirée, des chambres sont disponibles
+              directement sur le lieu de réception.
+            </p>
+          </div>
+
+          <div class="hero-photo">
+            <img
+              src="https://hermos.fr/wp-content/uploads/2020/05/manoir-Hermos-exterieur-2-600x400.jpg"
+              alt="Manoir d'Hermos"
+            />
+            <div class="hero-badge">
+              <strong>WhatsApp</strong>
+              <p>Réservations & RSVP : <span data-whatsapp-display></span></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-grid">
+            <article class="section-panel reveal">
+              <p class="kicker">Bienvenue</p>
+              <h2>Un site simple pour tout retrouver</h2>
+              <p>
+                Ce site a été pensé pour que la famille et les amis puissent retrouver
+                facilement l'essentiel : le lieu, les chambres, les réponses aux questions
+                fréquentes et la confirmation de présence.
+              </p>
+              <p>
+                Le programme détaillé de la journée sera communiqué prochainement et toutes
+                les informations seront mises à jour au fur et à mesure.
+              </p>
+            </article>
+            <article class="section-panel reveal">
+              <p class="kicker">À retenir</p>
+              <h2>Hébergement sur place</h2>
+              <p>
+                20 euros par personne seule, 40 euros par couple, 55 euros pour un couple
+                avec enfants.
+              </p>
+              <p data-lodging-capacity></p>
+              <div class="button-row">
+                <a class="button" href="https://wa.me/33783626315" target="_blank" rel="noreferrer">
+                  Nous écrire
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="mini-label">Le lieu</p>
+          <h2>Le Manoir d'Hermos en images</h2>
+          <div class="gallery-grid" data-gallery></div>
+        </section>
+
+        <section class="section">
+          <div class="section-grid">
+            <article class="note-panel reveal">
+              <p class="kicker" data-dress-code-title></p>
+              <h2>Élégant en marron</h2>
+              <p data-dress-code-text></p>
+            </article>
+            <article class="note-panel reveal">
+              <p class="kicker">Infos à venir</p>
+              <h2>Un site facile à faire évoluer</h2>
+              <p>
+                Les horaires définitifs, les consignes pratiques et les derniers détails
+                peuvent être modifiés rapidement selon vos besoins.
+              </p>
+              <p data-update-hint></p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" data-site-footer></footer>
+    </div>
+
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
